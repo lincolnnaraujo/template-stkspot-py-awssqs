@@ -1,0 +1,1 @@
+# About hands-on-py-publisher-awssqs stack
