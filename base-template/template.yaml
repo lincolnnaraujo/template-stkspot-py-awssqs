@@ -1,0 +1,45 @@
+name: base-template
+description: Template script python para publicacao de json em fila aws sqs
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+    global: true
+  - label: Aws profile
+    type: text
+    name: aws_profile
+    default: "default"
+    global: true
+  - label: Http proxy
+    type: text
+    name: http_proxy
+    default: ""
+    global: true
+  - label: Https proxy
+    type: text
+    name: https_proxy
+    default: ""
+    global: true
+  - label: Aws region
+    type: text
+    name: aws_region
+    default: "sa-east-1"
+    global: true
+  - label: Queue name
+    type: text
+    name: aws_sqs_queue_name
+    default: "change it"
+    global: true
+  - label: Queue arn
+    type: text
+    name: aws_sqs_queue_arn
+    default: "change it"
+    global: true
+  - label: Queue url
+    type: text
+    name: aws_sqs_queue_url
+    default: "change it"
+    global: true
